@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 601px) {
   #home p {
     font-size: 22px;
     font-weight: 300;
@@ -24,7 +24,7 @@
   border-radius: 100px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 601px) {
   #contact img {
     width: 25%;
   }
@@ -41,7 +41,7 @@
     transform: translateX(-108%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   #main-nav.sidenav {
     transform: translateX(0);
   }
