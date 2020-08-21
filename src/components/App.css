@@ -1,0 +1,272 @@
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#home p {
+  font-size: 18px;
+}
+
+#home button {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+  #home p {
+    font-size: 22px;
+    font-weight: 300;
+  }
+}
+
+#contact img {
+  width: 40%;
+  border-radius: 100px;
+}
+
+@media (min-width: 400px) {
+  #contact img {
+    width: 25%;
+  }
+  #contact .name-header {
+    text-align: center;
+  }
+}
+
+#motivation p {
+  text-align: justify;
+}
+
+#main-nav.sidenav {
+    transform: translateX(-108%);
+}
+
+@media (min-width: 400px) {
+  #main-nav.sidenav {
+    transform: translateX(0);
+  }
+}
+
+.tabs-content.carousel.carousel-slider .carousel-item.active {
+    position: relative;
+}
+    
+.tabs-content.carousel.carousel-slider { 
+    height: auto !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #f50057 !important;
+}
+
+.tabs .tab a {
+    color: #f48fb1 !important;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#main-nav {
+    transform: translateX(0px);
+}
+
+#shine-logo {
+    height: 19px;
+    max-width: 80px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo a:hover, .app-brand a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.card-content hr, .card-reveal hr {
+  height: 1px;
+  border: none;
+  background-color: #999999;
+  margin: 10px 0px 10px 0px; 
+}
+
+#experiences .card-content .card-description p, #hobbies .card-content .card-description p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#hobbies .card {
+  border-radius: 10px;
+  height: 340px;
+}
+
+#hobbies .card .card-list li {
+  margin: 10px 0 10px 0;
+  
+}
+
+.header {
+    font-weight: 300;
+    color: black;
+}
+
+.header.tab-subheader {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+nav.top-nav {
+    height: 110px;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+nav.top-nav h1.header {
+    padding-top: 22px;
+    margin: 0;
+}
+
+@media (min-width: 601px) {
+  header, main, footer {
+    padding-left: 300px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+    main .container, body.page-footer .container, .top-nav .container, footer.main-footer .container {
+        width: 100%;
+    }
+}
+
+footer.main-footer {
+    background-color: transparent;
+}
+
+footer.main-footer .row {
+    margin-bottom: 15px;
+}
+
+footer.main-footer .footer-copyright {
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+}
+
+.spacer {
+    padding-top: 50px;
+}
+
+.skill-name {
+    margin-left: 5px;
+}
+
+.skill-level {
+    float: right;
+    font-size: 12px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+#education .card .card-content .card-title, #experiences .card .card-content .card-title {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* ------
+Timeline CSS (Original Code: https://www.uplabs.com/posts/responsive-materialize-timeline, by Paul Bottein)
+------ */
+
+.timeline {
+  position: relative;
+}
+
+.timeline .timeline-event {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.timeline .timeline-event .timeline-content {
+  position: relative;
+  width: calc(50% - 50px);
+  border-radius: 10px;
+}
+
+.timeline .timeline-event::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: 0;
+}
+
+.timeline .timeline-event::after {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: calc(50% + 30px);
+}
+
+.timeline .timeline-event:first-child::before {
+  display: none;
+}
+
+.timeline .timeline-event:last-child::after {
+  display: none;
+}
+
+.timeline .timeline-event:nth-child(even) .timeline-content {
+  margin-left: calc(50% + 50px);
+}
+
+.timeline .timeline-event:nth-child(odd) .timeline-content {
+  margin-left: 0;
+}
+
+.timeline .timeline-badge {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #d2d2d2;
+  top: calc(50% - 20px);
+  right: calc(50% - 20px);
+  border-radius: 50%;
+  text-align: center;
+  cursor: default;
+}
+
+.timeline .timeline-badge svg {
+  font-size: 25px;
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+  .timeline .timeline-event .timeline-content {
+    width: calc(100% - 70px);
+  }
+  .timeline .timeline-event::before {
+    left: 19px;
+  }
+  .timeline .timeline-event::after {
+    left: 19px;
+  }
+  .timeline .timeline-event:nth-child(even) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-event:nth-child(odd) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-badge {
+    left: 0;
+  }
+}
