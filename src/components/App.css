@@ -82,7 +82,7 @@ main {
 }
 
 .tabs {
-  overflow-y: auto;
+  overflow: visible;
 }
 
 .logo {
