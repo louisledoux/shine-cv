@@ -38,7 +38,7 @@ class Motivation extends Component {
                     <h3 className="header teal-text">Introduction</h3>
                     <p>
                         Je suis actuellement conseiller en création d'entreprise, spécialisé dans l'accompagnement en stratégie digitale. À côté de mon emploi, je suis passionné par le web et son évolution, et
-                        voilà maintenant plusieurs années que j'apprends des languages webs {'&'} des frameworks en autodidacte, comme Laravel ou plus récemment React.
+                        voilà maintenant plusieurs années que j'apprends des langages webs {'&'} des frameworks en autodidacte, comme Laravel ou plus récemment React.
                     </p>
                     <p>
                         Je souhaite aujourd'hui suivre cette passion et évoluer vers le développement web, tout en restant en contact avec le monde de l'entrepreneuriat.
@@ -52,20 +52,20 @@ class Motivation extends Component {
                         entrepreneurial, et continuer d'aider les entrepreneurs, tout en évoluant dans un métier qui me plait et me motive au quotidien.
                     </p>
                     <p>
-                        Également, je ne suis pas resté insensible à la journée par mois dédiée pour effectuer du freelance. En effet, j'aimerais à l'avenir pouvoir développer une
-                        agence web pour aider les entrepreneurs à la réalisation de leur site Internet (idée que je commence déjà à travailler depuis plusieurs mois), et pouvoir entamer cette activité freelance petit à petit en étant dans l'écosystème 
-                        Shine est une idée qui me plait beaucoup.
+                        De plus, je ne suis pas resté insensible à la journée par mois dédiée pour effectuer du freelance. En effet, j'aimerais à l'avenir pouvoir développer une
+                        agence web pour aider les entrepreneurs à la réalisation de leur site Internet (idée que je commence déjà à travailler depuis plusieurs mois).
+                        Pouvoir entamer cette activité freelance petit à petit en étant dans l'écosystème Shine est une idée qui me plait beaucoup.
                     </p>
                 </div>
                 <div id="apport" className="section scrollspy">
                     <h3 className="header amber-text text-accent-4">Qu'est-ce que je peux apporter ?</h3>
                     <p>
-                        Ayant l'expérience de conseiller en création d'entreprise, et de porteur de projet, je suis confronté au jour le jour à la réalité de la vie quotidienne des indépendants et à leurs problématiques.
-                        Cela me permet d'avoir une approche orientée Utilisateur dans le développement, et derrière savoir que développer des outils pouvant faciliter la vie des entrepreneurs au quotidien est pour moi une véritable motivation.
+                        Avec mon expérience de conseiller en création d'entreprise, et de porteur de projet, je suis confronté au jour le jour à la réalité de la vie quotidienne des indépendants et à leurs problématiques.
+                        Cela me permet d'avoir une approche orientée Utilisateur dans le développement. De plus, développer des outils pouvant faciliter la vie des entrepreneurs au quotidien est pour moi une véritable motivation.
                     </p>
                     <p>
-                        Pour le côté développement, j'ai appris plusieurs languages {'&'} framework en autodidacte, comme React. J'ai en revanche très peu touché au Back-End pour le moment, bien que ce soit quelque chose qui m'attire : j'aimerais pouvoir à l'avenir manipuler la Data et concevoir des APIs.
-                        Bien que n'ayant pas l'expérience professionnelle directe en tant que développeur Fullstack, je pense que mes connaissances acquises par mes différentes expériences pourraient correspondre à vos critères de recherches.
+                        Pour le côté développement, j'ai appris plusieurs langages {'&'} framework en autodidacte, comme React. J'ai en revanche très peu touché au Back-End pour le moment, bien que ce soit quelque chose qui m'attire : j'aimerais pouvoir à l'avenir manipuler la Data et concevoir des APIs.
+                        Bien que n'ayant pas l'expérience professionnelle directe en tant que développeur Fullstack, je pense que les connaissances acquises par mes différentes expériences pourraient correspondre à vos critères de recherche.
                     </p>
                     <p>Je peux proposer également mes talents de cuisinier : j'ai reçu mon diplôme pas du tout officiel de professionnel en confection de crêpes <FontAwesomeIcon icon={['far', 'smile-wink']} /></p>
                 </div>

@@ -414,7 +414,7 @@ class Curriculum extends Component {
                                 <span className="card-title grey-text text-darken-4">Informatique<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
                                 <hr />
                                 <ul className="card-list">
-                                    <li>Apprentissage en autodidacte de languages {'&'} framework de programmation</li>
+                                    <li>Apprentissage en autodidacte de langages {'&'} framework de programmation</li>
                                     <li>Modérateur d'une association gaming</li>
                                 </ul>
                             </div>
@@ -484,9 +484,9 @@ class Curriculum extends Component {
                             responsiveThreshold: Infinity,
                             swipeable: false
                         }}
-                        title="Compétences Techniques"
+                        title="Expériences"
                     >
-                        <this.SkillsTab />
+                        <this.ExperiencesTab />
                     </Tab>
                     <Tab
                         options={{
@@ -495,9 +495,9 @@ class Curriculum extends Component {
                             responsiveThreshold: Infinity,
                             swipeable: false
                         }}
-                        title="Expériences"
+                        title="Compétences Techniques"
                     >
-                        <this.ExperiencesTab />
+                        <this.SkillsTab />
                     </Tab>
                     <Tab
                         options={{
