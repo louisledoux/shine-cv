@@ -11,7 +11,8 @@ class Home extends Component {
                     <h1 className="header pink-text text-accent-3">Louis Ledoux</h1>
                 </div>
                 <div className="col s12 m10">
-                    <h4 className="light grey-text text-darken-2">Lettre de Motivation + CV</h4>
+                    <h4 className="light grey-text text-darken-2">Lettre de Motivation + CV </h4>
+                    <h5 className="light grey-text text-darken-2"><img id="shine-title" alt="Shine's logo" src="https://www.shine.fr/images/logo.svg"></img> Special Edition</h5>
                     <br/>
                     <p>Bonjour ! Je me présente rapidement : je m'appelle Louis, j'ai 24 ans, et vous trouverez sur ce site (réalisé avec amour en React) ma lettre de motivation {'&'} mon CV pour votre entreprise ～</p>
                     <p>Je vous remercie de prendre le temps de venir lire ma candidature, et j'espère à très vite <FontAwesomeIcon icon={['far', 'smile-beam']} /></p>

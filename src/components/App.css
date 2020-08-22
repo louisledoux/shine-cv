@@ -76,6 +76,11 @@ main {
     max-width: 80px;
 }
 
+#shine-title {
+  height: 22px;
+  max-width: 80px;
+}
+
 .logo {
     margin-top: 20px;
 }
