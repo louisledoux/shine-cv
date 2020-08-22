@@ -49,10 +49,10 @@ class Motivation extends Component {
                     <h3 className="header purple-text">Pourquoi Shine ?</h3>
                     <p>
                         De par mon métier et mon parcours de porteur de projet, Shine ne m'était pas inconnu. Je souhaite venir chez vous pour rester dans l'environnement
-                        entrepreneurial, et continuer d'aider les entrepreneurs dans leur quotidien, tout en évoluant dans un métier qui me plait et me motive au quotidien.
+                        entrepreneurial, et continuer d'aider les entrepreneurs, tout en évoluant dans un métier qui me plait et me motive au quotidien.
                     </p>
                     <p>
-                        Également, je ne suis pas resté insensible à la journée par mois dediée pour effectuer du freelance. En effet, j'aimerais à l'avenir pouvoir développer une
+                        Également, je ne suis pas resté insensible à la journée par mois dédiée pour effectuer du freelance. En effet, j'aimerais à l'avenir pouvoir développer une
                         agence web pour aider les entrepreneurs à la réalisation de leur site Internet (idée que je commence déjà à travailler depuis plusieurs mois), et pouvoir entamer cette activité freelance petit à petit en étant dans l'écosystème 
                         Shine est une idée qui me plait beaucoup.
                     </p>
@@ -60,12 +60,12 @@ class Motivation extends Component {
                 <div id="apport" className="section scrollspy">
                     <h3 className="header amber-text text-accent-4">Qu'est-ce que je peux apporter ?</h3>
                     <p>
-                        Ayant l'expérience de conseiller en création d'entreprise, et de porteur de projet, j'ai connaissance de la réalité des indépendants et de leur quotidien.
-                        Cela me permet d'avoir une approche orientée Utilisateur dans le développement, et savoir que développer des outils pouvant faciliter la vie des entrepreneurs au quotidien est pour moi une véritable motivation.
+                        Ayant l'expérience de conseiller en création d'entreprise, et de porteur de projet, je suis confronté au jour le jour à la réalité de la vie quotidienne des indépendants et à leurs problématiques.
+                        Cela me permet d'avoir une approche orientée Utilisateur dans le développement, et derrière savoir que développer des outils pouvant faciliter la vie des entrepreneurs au quotidien est pour moi une véritable motivation.
                     </p>
                     <p>
-                        Pour le cote développement, j'ai appris plusieurs languages {'&'} framework en autodidacte, comme React. J'ai en revanche très peu touché au Back-End pour le moment, bien que ce soit quelque chose qui m'attire : j'aimerais pouvoir à l'avenir manipuler la Data et concevoir des APIs.
-                        Bien que n'ayant pas l'expérience professionnelle directe en tant que developpeur Fullstack, je pense que mes connaissances acquises par mes différentes expériences pourraient correspondre à vos critères de recherches.
+                        Pour le côté développement, j'ai appris plusieurs languages {'&'} framework en autodidacte, comme React. J'ai en revanche très peu touché au Back-End pour le moment, bien que ce soit quelque chose qui m'attire : j'aimerais pouvoir à l'avenir manipuler la Data et concevoir des APIs.
+                        Bien que n'ayant pas l'expérience professionnelle directe en tant que développeur Fullstack, je pense que mes connaissances acquises par mes différentes expériences pourraient correspondre à vos critères de recherches.
                     </p>
                     <p>Je peux proposer également mes talents de cuisinier : j'ai reçu mon diplôme pas du tout officiel de professionnel en confection de crêpes <FontAwesomeIcon icon={['far', 'smile-wink']} /></p>
                 </div>
@@ -79,7 +79,7 @@ class Motivation extends Component {
                         J'ai conscience que je n'ai peut-être pas toutes les compétences techniques, ou encore l'expérience requise, pour répondre aux besoins de votre équipe.
                     </p>
                     <p>
-                        Le cas écheant, j'aimerais savoir si vous êtes ouvert à l'idée d'une <a href="https://www.pole-emploi.fr/employeur/aides-aux-recrutements/les-aides-a-la-formation/la-preparation-operationnelle-a.html" target="_blank" rel="noopener noreferrer">POEI <FontAwesomeIcon icon={['fas', 'external-link-alt']} size="xs" /></a>, afin de pouvoir suivre une formation complète Fullstack JS en téléprésentiel, directement depuis vos locaux. Cela me permettrait d’acquérir une majorité des compétences nécessaires, tout en pouvant me former sur place à vos outils et votre méthode de travail, pour une prise de poste immédiate une fois la formation terminée.
+                        Si l'écart est trop important entre le poste et mon profil, j'aimerais savoir si vous êtes ouvert à l'idée d'une <a href="https://www.pole-emploi.fr/employeur/aides-aux-recrutements/les-aides-a-la-formation/la-preparation-operationnelle-a.html" target="_blank" rel="noopener noreferrer">POEI <FontAwesomeIcon icon={['fas', 'external-link-alt']} size="xs" /></a>, afin de pouvoir suivre une formation complète Fullstack JS en téléprésentiel, directement depuis vos locaux. Cela me permettrait d’acquérir les compétences nécessaires, tout en pouvant me former sur place à vos outils et votre méthode de travail, pour une prise de poste immédiate une fois la formation terminée.
                     </p>
                     <p>
                         Si cela vous intéresse, je suis déjà en relation avec une école qui propose une formation Fullstack JS en téléprésentiel, <a href="https://oclock.io/" target="_blank" rel="noopener noreferrer">O'Clock &nbsp;<FontAwesomeIcon icon={['fas', 'external-link-alt']} size="xs" /></a>.
