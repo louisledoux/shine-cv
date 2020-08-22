@@ -45,7 +45,7 @@ const App = () => {
         <div className="container">
           <div className="row">
             <div className="footer-copyright col s12 m12 xl9 offset-xl1">
-              Aout 2020 - Louis Ledoux pour Shine, fait avec amour ～
+              Aout 2020 - Louis Ledoux, réalisé spécialement pour Shine ～
               <a className="right" href="https://github.com/louisledoux" target="_blank" rel="noopener noreferrer">Pour le repository du site, c'est par ici !</a>
             </div>
           </div>
