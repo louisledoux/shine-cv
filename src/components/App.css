@@ -81,8 +81,14 @@ main {
   max-width: 80px;
 }
 
-.tabs {
-  overflow: scroll;
+.tabs.tab-cv {
+  overflow-x: scroll;
+}
+
+@media (min-width: 600px) {
+  .tabs.tab-cv {
+    overflow-x: auto;
+  }
 }
 
 .logo {
