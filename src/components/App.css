@@ -82,7 +82,7 @@ main {
 }
 
 .tabs {
-  overflow: visible;
+  overflow: scroll;
 }
 
 .logo {
