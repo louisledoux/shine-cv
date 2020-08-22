@@ -81,6 +81,10 @@ main {
   max-width: 80px;
 }
 
+.tabs {
+  overflow-y: auto;
+}
+
 .logo {
     margin-top: 20px;
 }

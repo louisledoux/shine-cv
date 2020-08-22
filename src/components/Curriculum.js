@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-materialize';
+import { Tabs, Tab, Icon } from 'react-materialize';
 import M from 'materialize-css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -215,7 +215,7 @@ class Curriculum extends Component {
                         <div className="card timeline-content">
                             <div className="card-content">
                                 <span className="card-title">Master 2 Entrepreneuriat {'&'} Management de l'Innovation</span>
-                                <p>2018-2019</p>
+                                <p>2018-2019 - Mention Bien</p>
                                 <p>IAE Lille, Lille (FR)</p>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ class Curriculum extends Component {
                         <div className="card timeline-content">
                             <div className="card-content">
                                 <span className="card-title">Master en Management</span>
-                                <p>2016-2018</p>
+                                <p>2016-2018 - Mention Bien</p>
                                 <p>Eurasiam, Paris (FR), Tokyo (JP)</p>
                             </div>
                         </div>
@@ -234,7 +234,7 @@ class Curriculum extends Component {
                     <div className="timeline-event">
                         <div className="card timeline-content">
                             <div className="card-content">
-                                <span className="card-title">3 ans de formation en Management {'&'} Game Design</span>
+                                <span className="card-title">Bac+3 en Management {'&'} Game Design</span>
                                 <p>2013-2016</p>
                                 <p>SUPINFOGAME Rubika, Valenciennes (FR)</p>
                             </div>
@@ -245,6 +245,7 @@ class Curriculum extends Component {
                         <div className="card timeline-content">
                             <div className="card-content">
                                 <span className="card-title">Baccalauréat Section Scientifique</span>
+                                <p>Mention Assez Bien</p>
                                 <p>2013</p>
                             </div>
                         </div>
@@ -255,7 +256,7 @@ class Curriculum extends Component {
                             <div className="card-content">
                                 <span className="card-title">Diplôme d’études de solfège</span>
                                 <p>Juin 2008</p>
-                                <p>(Fin de 3ème cycle, passé avec mention)</p>
+                                <p>(Fin de 3ème cycle, obtenu avec mention)</p>
                             </div>
                         </div>
                         <div className="timeline-badge purple white-text"><FontAwesomeIcon icon={['fas', 'music']} /></div>
@@ -361,14 +362,14 @@ class Curriculum extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <img alt="" src="https://img.finalfantasyxiv.com/lds/promo/h/M/jmK4Q5CcFnBD1FfV90aw1zeUG8.png" />
-                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><i><FontAwesomeIcon className="activator" icon={['fas', 'plus']} /></i></button>
+                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><Icon className="activator">add</Icon></button>
                             </div>
                             <div className="card-content">
                                 <span className="card-title">Culture du Jeu</span>
                                 <p className="card-description">Joueur régulier de jeux de société {'&'} jeux vidéo</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">Jeux du moment<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
+                                <span className="card-title grey-text text-darken-4">Jeux du moment <Icon right>close</Icon></span>
                                 <hr />
                                 <ul className="card-list">
                                     <li>Final Fantasy XIV</li>
@@ -383,14 +384,14 @@ class Curriculum extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <img alt="" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002533/img/basic/a0002533_main.jpg" />
-                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><i><FontAwesomeIcon className="activator" icon={['fas', 'plus']} /></i></button>
+                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><Icon className="activator">add</Icon></button>
                             </div>
                             <div className="card-content">
                                 <span className="card-title">Culture Asiatique</span>
                                 <p className="card-description">Fort intérêt pour la culture asiatique</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">Culture Asiatique<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
+                                <span className="card-title grey-text text-darken-4">Culture Asiatique <Icon right>close</Icon></span>
                                 <hr />
                                 <ul className="card-list">
                                     <li>Niveau intermédiaire en Japonais (JLPT N3)</li>
@@ -404,14 +405,14 @@ class Curriculum extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <img alt="" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg&w=640" />
-                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><i><FontAwesomeIcon className="activator" icon={['fas', 'plus']} /></i></button>
+                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><Icon className="activator">add</Icon></button>
                             </div>
                             <div className="card-content">
                                 <span className="card-title">Informatique</span>
                                 <p className="card-description">Programming, Web Development, Gaming</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">Informatique<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
+                                <span className="card-title grey-text text-darken-4">Informatique <Icon right>close</Icon></span>
                                 <hr />
                                 <ul className="card-list">
                                     <li>Apprentissage en autodidacte de langages {'&'} framework de programmation</li>
@@ -424,18 +425,18 @@ class Curriculum extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <img alt="" src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marius-masalar-rPOmLGwai2w-unsplash.jpg&w=640" />
-                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><i><FontAwesomeIcon className="activator" icon={['fas', 'plus']} /></i></button>
+                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><Icon className="activator">add</Icon></button>
                             </div>
                             <div className="card-content">
                                 <span className="card-title">Musique</span>
                                 <p className="card-description">Pratique {'&'} goûts musicaux</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">Musique<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
+                                <span className="card-title grey-text text-darken-4">Musique <Icon right>close</Icon></span>
                                 <hr />
                                 <ul className="card-list">
                                     <li>Musicien: Bassoniste (15 ans) / Pianiste (11 ans)</li>
-                                    <li>Diplôme Musical de Basson (Fin de 2nd cycle, passé avec mention)</li>
+                                    <li>Diplôme Musical de Basson (Fin de 2nd cycle, obtenu avec mention)</li>
                                     <li>Appétence particulière pour le rock, le jazz {'&'} la musique des années 80 ～♪</li>
                                 </ul>
                             </div>
@@ -445,14 +446,14 @@ class Curriculum extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <img alt="" src="https://i.ytimg.com/vi/Emw0_F7kuAA/maxresdefault.jpg" />
-                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><i><FontAwesomeIcon className="activator" icon={['fas', 'plus']} /></i></button>
+                                <button className="btn-floating btn-small activator halfway-fab waves-effect waves-light pink accent-3"><Icon className="activator">add</Icon></button>
                             </div>
                             <div className="card-content">
                                 <span className="card-title">Sport</span>
                                 <p className="card-description">Arts Martiaux {'&'} pratique sportive</p>
                             </div>
                             <div className="card-reveal">
-                                <span className="card-title grey-text text-darken-4">Sport (avant COVID)<i className="right"><FontAwesomeIcon icon={['fas', 'times']} /></i></span>
+                                <span className="card-title grey-text text-darken-4">Sport (avant COVID) <Icon right>close</Icon></span>
                                 <hr />
                                 <ul className="card-list">
                                     <li>Pratique de sport en salle</li>
