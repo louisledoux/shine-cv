@@ -167,13 +167,6 @@ footer.main-footer .footer-copyright {
     margin-left: 5px;
 }
 
-.skill-level {
-    float: right;
-    font-size: 12px;
-    margin-top: 1%;
-    margin-right: 5%;
-}
-
 #education .card .card-content .card-title, #experiences .card .card-content .card-title {
     font-size: 18px;
     line-height: 24px;
