@@ -20,15 +20,21 @@ class Curriculum extends Component {
                         <div id="frontend" className="section">
                             <h5 className="header teal-text">Front End</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'react']} size="lg" color="teal" /> <span className="skill-name">React.js</span> <span className="skill-level">60 %</span>
+                            <FontAwesomeIcon icon={['fab', 'html5']} size="lg" color="teal" /> <span className="skill-name">HTML5 / CSS3</span>
                             <div className="progress">
-                                <div className="determinate" style={{width: 60 + "%"}}></div>
+                                <div className="determinate" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'laravel']} size="lg" color="teal" /> <span className="skill-name">Laravel</span> <span className="skill-level">40 %</span>
+                            <FontAwesomeIcon icon={['fab', 'react']} size="lg" color="teal" /> <span className="skill-name">React.js</span>
                             <div className="progress">
-                                <div className="determinate" style={{width: 40 + "%"}}></div>
+                                <div className="determinate" style={{width: 80 + "%"}}></div>
+                            </div>
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fab', 'laravel']} size="lg" color="teal" /> <span className="skill-name">Laravel</span>
+                            <div className="progress">
+                                <div className="determinate" style={{width: 70 + "%"}}></div>
                             </div>       
                         </div>
                     </div>
@@ -37,15 +43,21 @@ class Curriculum extends Component {
                         <div id="backend" className="section">
                             <h5 className="header purple-text">Back End</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'node']} size="lg" color="purple" /> <span className="skill-name">Node.js</span> <span className="skill-level">60 %</span>
+                            <FontAwesomeIcon icon={['fab', 'node']} size="lg" color="purple" /> <span className="skill-name">Node.js</span>
                             <div className="progress purple lighten-4">
-                                <div className="determinate purple" style={{width: 60 + "%"}}></div>
+                                <div className="determinate purple" style={{width: 70 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'php']} size="lg" color="purple" /> <span className="skill-name">PHP</span> <span className="skill-level">20 %</span>
+                            <FontAwesomeIcon icon={['fab', 'php']} size="lg" color="purple" /> <span className="skill-name">PHP</span>
                             <div className="progress purple lighten-4">
-                                <div className="determinate purple" style={{width: 20 + "%"}}></div>
+                                <div className="determinate purple" style={{width: 50 + "%"}}></div>
+                            </div>
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fas', 'fire']} size="lg" color="purple" /> <span className="skill-name">Firebase</span>
+                            <div className="progress purple lighten-4">
+                                <div className="determinate purple" style={{width: 50 + "%"}}></div>
                             </div>
                         </div>
                     </div>
@@ -54,25 +66,36 @@ class Curriculum extends Component {
                         <div id="cms" className="section">
                             <h5 className="header amber-text text-accent-4">CMS</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'wordpress']} size="lg" color="#ffab00" /> <span className="skill-name">Wordpress</span> <span className="skill-level">80 %</span>
+                            <FontAwesomeIcon icon={['fab', 'wordpress']} size="lg" color="#ffab00" /> <span className="skill-name">Wordpress</span>
                             <div className="progress amber lighten-3">
                                 <div className="determinate amber accent-4" style={{width: 80 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'joomla']} size="lg" color="#ffab00" /> <span className="skill-name">Joomla</span> <span className="skill-level">30 %</span>
+                            <FontAwesomeIcon icon={['fab', 'joomla']} size="lg" color="#ffab00" /> <span className="skill-name">Joomla</span>
                             <div className="progress amber lighten-3">
-                                <div className="determinate amber accent-4" style={{width: 30 + "%"}}></div>
+                                <div className="determinate amber accent-4" style={{width: 60 + "%"}}></div>
                             </div>       
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fas', 'shopping-cart']} size="lg" color="#ffab00" /> <span className="skill-name">Prestashop</span>
+                            <div className="progress amber lighten-3">
+                                <div className="determinate amber accent-4" style={{width: 50 + "%"}}></div>
+                            </div>   
                         </div>
                     </div>
                     <div className="col l4 s12">
                         <div id="devops" className="section">
                             <h5 className="header pink-text text-accent-3">DevOps</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'github']} size="lg" color="#f50057" /> <span className="skill-name">GitHub</span> <span className="skill-level">20 %</span>
+                            <FontAwesomeIcon icon={['fab', 'npm']} size="lg" color="#f50057" /> <span className="skill-name">NPM</span>
                             <div className="progress pink lighten-4">
-                                <div className="determinate pink accent-3" style={{width: 20 + "%"}}></div>
+                                <div className="determinate pink accent-3" style={{width: 80 + "%"}}></div>
+                            </div>
+                            <br/>
+                            <FontAwesomeIcon icon={['fab', 'github']} size="lg" color="#f50057" /> <span className="skill-name">GitHub</span>
+                            <div className="progress pink lighten-4">
+                                <div className="determinate pink accent-3" style={{width: 70 + "%"}}></div>
                             </div>      
                         </div>
                     </div>
@@ -85,25 +108,25 @@ class Curriculum extends Component {
                         <div id="bureautique" className="section">
                             <h5 className="header blue-text">Bureautique</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'file-word']} size="lg" color="#2196f3" /> <span className="skill-name">Word</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fas', 'file-word']} size="lg" color="#2196f3" /> <span className="skill-name">Word</span>
                             <div className="progress blue lighten-4">
                                 <div className="determinate blue" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'file-excel']} size="lg" color="#2196f3" /> <span className="skill-name">Excel</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fas', 'file-excel']} size="lg" color="#2196f3" /> <span className="skill-name">Excel</span>
                             <div className="progress blue lighten-4">
                                 <div className="determinate blue" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'file-powerpoint']} size="lg" color="#2196f3" /> <span className="skill-name">Powerpoint</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fas', 'file-powerpoint']} size="lg" color="#2196f3" /> <span className="skill-name">Powerpoint</span>
                             <div className="progress blue lighten-4">
                                 <div className="determinate blue" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'file-powerpoint']} size="lg" color="#2196f3" /> <span className="skill-name">Project</span> <span className="skill-level">80 %</span>
+                            <FontAwesomeIcon icon={['fas', 'file-powerpoint']} size="lg" color="#2196f3" /> <span className="skill-name">Project</span>
                             <div className="progress blue lighten-4">
                                 <div className="determinate blue" style={{width: 80 + "%"}}></div>
                             </div>
@@ -114,42 +137,48 @@ class Curriculum extends Component {
                         <div id="creation" className="section">
                             <h5 className="header red-text">Création</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Photoshop</span> <span className="skill-level">70 %</span>
+                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Photoshop</span>
+                            <div className="progress red lighten-4">
+                                <div className="determinate red" style={{width: 80 + "%"}}></div>
+                            </div>
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Illustrator</span>
+                            <div className="progress red lighten-4">
+                                <div className="determinate red" style={{width: 80 + "%"}}></div>
+                            </div>
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Premiere</span>
                             <div className="progress red lighten-4">
                                 <div className="determinate red" style={{width: 70 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Illustrator</span> <span className="skill-level">70 %</span>
+                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Adobe XD</span>
                             <div className="progress red lighten-4">
                                 <div className="determinate red" style={{width: 70 + "%"}}></div>
-                            </div>
-
-                            <br/>
-                            <FontAwesomeIcon icon={['fab', 'adobe']} size="lg" color="red" /> <span className="skill-name">Adobe XD</span> <span className="skill-level">60 %</span>
-                            <div className="progress red lighten-4">
-                                <div className="determinate red" style={{width: 60 + "%"}}></div>
                             </div>
                         </div>
                     </div>
 
                     <div className="col l4 s12">
                         <div id="communication" className="section">
-                            <h5 className="header indigo-text text-lighten-2">Communication</h5>
+                            <h5 className="header indigo-text text-lighten-2">Gestion de projet</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'slack']} size="lg" color="#7986cb" /> <span className="skill-name">Slack</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fab', 'slack']} size="lg" color="#7986cb" /> <span className="skill-name">Slack</span>
                             <div className="progress indigo lighten-4">
                                 <div className="determinate indigo lighten-2" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'trello']} size="lg" color="#7986cb" /> <span className="skill-name">Trello / Jira</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fab', 'trello']} size="lg" color="#7986cb" /> <span className="skill-name">Trello / Jira</span>
                             <div className="progress indigo lighten-4">
                                 <div className="determinate indigo lighten-2" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fab', 'discord']} size="lg" color="#7986cb" /> <span className="skill-name">Discord</span> <span className="skill-level">100 %</span>
+                            <FontAwesomeIcon icon={['fab', 'discord']} size="lg" color="#7986cb" /> <span className="skill-name">Discord</span>
                             <div className="progress indigo lighten-4">
                                 <div className="determinate indigo lighten-2" style={{width: 100 + "%"}}></div>
                             </div>
@@ -164,19 +193,25 @@ class Curriculum extends Component {
                         <div id="langues" className="section">
                             <h5 className="header green-text">Langues</h5>
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'flag-usa']} size="lg" color="#4caf50" /> <span className="skill-name">Anglais</span> <span className="skill-level">100 %</span>
-                            <div className="progress indigo lighten-4">
+                            <FontAwesomeIcon icon={['fas', 'flag-usa']} size="lg" color="#4caf50" /> <span className="skill-name">Anglais</span>
+                            <div className="progress green lighten-4">
                                 <div className="determinate green" style={{width: 100 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'torii-gate']} size="lg" color="#4caf50" /> <span className="skill-name">Japonais</span> <span className="skill-level">70 %</span>
-                            <div className="progress indigo lighten-4">
+                            <FontAwesomeIcon icon={['fas', 'torii-gate']} size="lg" color="#4caf50" /> <span className="skill-name">Japonais</span>
+                            <div className="progress green lighten-4">
                                 <div className="determinate green" style={{width: 70 + "%"}}></div>
                             </div>
 
                             <br/>
-                            <FontAwesomeIcon icon={['fas', 'yin-yang']} size="lg" color="#4caf50" /> <span className="skill-name">Chinois</span> <span className="skill-level">10 %</span>
+                            <FontAwesomeIcon icon={['fas', 'pepper-hot']} size="lg" color="#4caf50" /> <span className="skill-name">Espagnol</span>
+                            <div className="progress green lighten-4">
+                                <div className="determinate green" style={{width: 20 + "%"}}></div>
+                            </div>
+
+                            <br/>
+                            <FontAwesomeIcon icon={['fas', 'yin-yang']} size="lg" color="#4caf50" /> <span className="skill-name">Chinois</span>
                             <div className="progress green lighten-4">
                                 <div className="determinate green" style={{width: 10 + "%"}}></div>
                             </div>
@@ -254,9 +289,9 @@ class Curriculum extends Component {
                     <div className="timeline-event">
                         <div className="card timeline-content">
                             <div className="card-content">
-                                <span className="card-title">Diplôme d’études de solfège</span>
+                                <span className="card-title">Diplôme d’études de solfège {'&'} basson</span>
                                 <p>Juin 2008</p>
-                                <p>(Fin de 3ème cycle, obtenu avec mention)</p>
+                                <p>(Fin de 3ème cycle, obtenu mention Très Bien)</p>
                             </div>
                         </div>
                         <div className="timeline-badge purple white-text"><FontAwesomeIcon icon={['fas', 'music']} /></div>
@@ -436,7 +471,6 @@ class Curriculum extends Component {
                                 <hr />
                                 <ul className="card-list">
                                     <li>Musicien: Bassoniste (15 ans) / Pianiste (11 ans)</li>
-                                    <li>Diplôme Musical de Basson (Fin de 2nd cycle, obtenu avec mention)</li>
                                     <li>Appétence particulière pour le rock, le jazz {'&'} la musique des années 80 ～♪</li>
                                 </ul>
                             </div>
